@@ -2,7 +2,8 @@
 
 import dns.resolver
 import shodan
-shodan_mykey= 'pviD6mHgspJKSkIdHhfQqqtmqQrCZOtn'
+#inserir Key shodan
+shodan_mykey= '####'
 shodan_api = shodan.Shodan(shodan_mykey)
 shodan_vuln = 'Microsoft-IIS/8.0 country:"BR"' 
 shodan_results = shodan_api.search(shodan_vuln) 
