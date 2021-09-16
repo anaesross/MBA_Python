@@ -2,12 +2,9 @@
 
 import dns.resolver
 import shodan
-shodan_mykey= 'pviD6mHgspJKSkIdHhfQqqtmqQrCZOtn'
-shodan_api = shodan.Shodan(shodan_mykey)
-#shodan_vuln = 'openSSL/1.01' 
-#shodan_vuln = 'Windows 10' 
-#shodan_vuln = 'Linux 5.7' 
-#shodan_vuln = 'Microsoft-IIS/8.0 country:"BR"' 
+#inserir Key shodan 
+shodan_mykey= '###'
+shodan_api = shodan.Shodan(shodan_mykey) 
 shodan_vuln = 'port:21 Anonymous user logged in' 
 shodan_results = shodan_api.search(shodan_vuln) 
 
