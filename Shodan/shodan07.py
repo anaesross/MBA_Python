@@ -3,10 +3,9 @@
 import dns.resolver
 import shodan
 import time
-
-shodan_mykey= 'pviD6mHgspJKSkIdHhfQqqtmqQrCZOtn'
-shodan_api = shodan.Shodan(shodan_mykey)
-#shodan_target = '149.56.244.87' 
+#inserir Key shodan 
+shodan_mykey= '##'
+shodan_api = shodan.Shodan(shodan_mykey) 
 shodan_target = '179.191.78.194' 
 shodan_host = shodan_api.host(shodan_target) 
 
