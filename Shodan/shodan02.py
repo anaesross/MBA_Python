@@ -1,7 +1,8 @@
 #!/usr/bin/python
 
 import shodan
-shodan_mykey= 'pviD6mHgspJKSkIdHhfQqqtmqQrCZOtn'
+#inserir Key shodan
+shodan_mykey= '###'
 shodan_api = shodan.Shodan(shodan_mykey)
 #shodan_target = '149.56.244.87' 
 shodan_target = '179.191.78.194' 
